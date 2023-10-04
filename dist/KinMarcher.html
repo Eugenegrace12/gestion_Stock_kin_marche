@@ -1,0 +1,46 @@
+<html><head>
+  <SCRIPT src="http://java.com/js/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'KinMarcher.jnlp'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedkinmarcher.login() {
+        dtjava.embed(
+            {
+                id : 'kinmarcher.login',
+                toolkit : 'swing',
+                url : 'KinMarcher_browser.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '0',
+                height : '0'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {
+                onGetSplash : function() {}
+            }
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedkinmarcher.login);
+</script>
+
+</head><body>
+<h2>Test page for <b>KinMarcher</b></h2>
+  <b>Webstart:</b> <a href='KinMarcher.jnlp' onclick="return launchApplication('KinMarcher.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>

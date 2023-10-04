@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="KinMarcher.jnlp">
+  <information>
+    <title>KinMarcher</title>
+    <vendor>EugenePc</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="KinMarcher.jar" size="102781" download="eager" />
+    <jar href="lib\RSButtonIconI.jar" size="180983" download="eager" />
+    <jar href="lib\RSCalendar.jar" size="56413" download="eager" />
+    <jar href="lib\RSDate.jar" size="1584068" download="eager" />
+    <jar href="lib\RSFoto_v1.0.jar" size="3191099" download="eager" />
+    <jar href="lib\RojeruSan.parte1.jar" size="3212860" download="eager" />
+    <jar href="lib\jcalendar-1.4.jar" size="165052" download="eager" />
+    <jar href="lib\mssql-jdbc-12.4.1.jre11-javadoc.jar" size="1285273" download="eager" />
+    <jar href="lib\mssql-jdbc-12.4.1.jre11-sources.jar" size="963179" download="eager" />
+    <jar href="lib\mssql-jdbc-12.4.1.jre11.jar" size="1451577" download="eager" />
+    <jar href="lib\mssql-jdbc-12.4.1.jre8-javadoc.jar" size="1212124" download="eager" />
+    <jar href="lib\mssql-jdbc-12.4.1.jre8-sources.jar" size="963189" download="eager" />
+    <jar href="lib\mssql-jdbc-12.4.1.jre8.jar" size="1438440" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.15-bin (1).jar" size="785998" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.15-bin.jar" size="785998" download="eager" />
+    <jar href="lib\rs2xml.jar" size="171578" download="eager" />
+    <jar href="lib\sqlite-jdbc-3.20.1.jar" size="6637455" download="eager" />
+    <jar href="lib\sqlite-jdbc-3.8.7.jar" size="3959324" download="eager" />
+    <jar href="lib\sqljdbc42.jar" size="891490" download="eager" />
+  </resources>
+  <application-desc main-class="kinmarcher.login.inscription"  name="KinMarcher" >
+  </application-desc>
+  <update check="background"/>
+</jnlp>
