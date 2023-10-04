@@ -1,6 +1,6 @@
 # gestion_Stock_kin_marche
  1. Introduction
-L'application "Gestion de stock de Kin marché" a été conçue dans le cadre d'un projet académique pour un examen de conception d'applications Android en Java. Cette application, développée en utilisant une base de données SQL, vise à simplifier la gestion des stocks pour l'entreprise Kin marché. Elle offre un ensemble de fonctionnalités essentielles pour suivre et gérer efficacement les produits, les fournisseurs, les clients, les approvisionnements, et générer des états de sortie.
+L'application "Gestion de stock de Kin marché" a été conçue dans le cadre d'un projet académique à L'isig goma, Lic2 LIAGE, groupe 7 pour un examen de conception d'applications   en Java. Cette application, développée en utilisant une base de données SQL, vise à simplifier la gestion des stocks pour l'entreprise Kin marché. Elle offre un ensemble de fonctionnalités essentielles pour suivre et gérer efficacement les produits, les fournisseurs, les clients, les approvisionnements, et générer des états de sortie.
 
 2. Tableau de bord (Dashboard)
 2.1 Vue d'ensemble
